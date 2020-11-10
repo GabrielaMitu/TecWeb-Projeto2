@@ -1,0 +1,21 @@
+{
+  "name": "projetodois",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "ejs": "^2.6.2",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.11",
+    "morgan": "~1.9.1",
+    "node-where": "^1.1.0",
+    "unirest": "^0.6.0"
+  }
+}

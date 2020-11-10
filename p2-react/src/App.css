@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Table{
+  border-bottom: 1px solid ;
+  color: black;
+  background-color:#2c5364
+
+}
+
+.imagem {
+  margin: 2rem;
+  display: inline-flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	/* padding: 0; */
+  /* list-style: none; */
+} 
+#nav li {
+	float: left; }
+
+#nav li a {
+		display: block;
+		/* padding: 8px 15px; */
+		text-decoration: none;
+		font-weight: bold;
+		color: #069;
+		border-right: 1px solid #ccc; }
+
+#nav li a {
+		display: block;
+		/* padding: 8px 15px; */
+		text-decoration: none;
+		font-weight: bold;
+		color: #069;
+		border-right: 1px solid #ccc; }
+
+
+    *,
+    *::after,
+    *::before {
+      margin: 0;
+      /* padding: 0; */
+      box-sizing: inherit;
+      font-size: 62,5%;
+    }
+    
+    body {
+      /* height: 100vh; */
+      width: 100%;
+      background: #0f2027; /* fallback for old browsers */
+      background: linear-gradient(to right,#2c5364, #203a43, #0f2027);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* height: 100vh; */
+      color: #fff;
+      background-image: url("https://bloximages.chicago2.vip.townnews.com/missoulian.com/content/tncms/assets/v3/editorial/5/aa/5aa9642f-e19b-5cb8-91b8-e07165f99a3b/59a05d725869b.image.jpg?resize=1200%2C800U")
+
+    }
+    
+    .form__label {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.2rem;
+      margin-left: 20rem;
+      margin-top: 0.7rem;
+      display: block;
+      transition: all 0.3s;
+      transform: translateY(0rem);
+    }
+    
+    .form__input {
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      font-size: 1.2rem;
+      margin: 0 auto;
+      padding: 0.3rem 1.3rem;
+      border-radius: 0.2rem;
+      background-color: rgb(255, 255, 255);
+      border: none;
+      width: 90%;
+      display: block;
+      border-bottom: 0.3rem solid transparent;
+      transition: all 0.3s;
+    }
+    
+    .form__input:placeholder-shown + .form__label {
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transform: translateY(-4rem);
+      transform: translateY(-4rem);
+    }
+    
+
+    button {
+      border: none;
+      cursor: pointer;
+      border-radius: 3px;
+      padding: 30px;
+      width: 400px;
+      background-color: rgb(22, 86, 97);
+      color:white;
+      margin-left: 25px;
+      margin-right: 25px;
+      box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+     
+    }
+
+
+.posts{
+  margin-top: 90px;
+  
+}
+
+.header_weather{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+
+.title_login{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.temp{
+  font-family: "Snell Roundhand", "Brush Script MT", "Brush Script Std", cursive
+}
+
+.divisao{
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+
+.divisao2{
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+}
